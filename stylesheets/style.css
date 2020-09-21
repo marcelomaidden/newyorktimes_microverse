@@ -10,6 +10,14 @@ header {
     background-color: white;
 }
 
+.flex {
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
 nav {
     margin-left:20px;
     margin-top: 15px; 
@@ -114,7 +122,7 @@ nav ul {
 
 .para-1 {
     max-width: 600px;
-    margin-left: auto;
+    margin-left: 300px;
     margin-right: auto;
     padding-top: 50px;
     font-family: 'Crimson Text', serif;
@@ -142,7 +150,7 @@ a {
     color: rgb(50, 104, 145);
 }
 
-.thanks a {
+.a-nodecoration {
     text-decoration: none;
 }
 
@@ -150,4 +158,44 @@ a {
     width: 100px;
     color: black;
     margin: 20px auto;
+}
+
+aside {
+    max-width: 200px;
+    margin-left: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+aside img {
+    width: 100px;
+    padding: 10px;
+}
+
+aside h3 {
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.editor-picks {
+    border-bottom: 1px solid lightgray;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.editor-image {
+    width: 250px;
+
+}
+
+.a-h3 {
+    color: black;
+    font-weight: 100;
+}
+
+aside a:hover {
+    text-decoration: underline;
 }
