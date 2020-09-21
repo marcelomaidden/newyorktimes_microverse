@@ -4,10 +4,13 @@
 }
 
 header {
-    height:70px;
+    height: 72px;
     width: 100%;
     position: fixed;
     background-color: white;
+}
+hr {
+    border-color: 1px grey;
 }
 
 .flex {
@@ -198,4 +201,33 @@ aside h3 {
 
 aside a:hover {
     text-decoration: underline;
+}
+
+.resize-image {
+ padding: 150px;
+ margin: 30px;
+ width:100%;
+ height: 600px;
+ background-image: url('/images/newyork.png');
+ background-repeat: no-repeat;
+ background-origin: content-box;
+ background-size: 900px 600px;
+}
+
+.resize-image img{
+width: 100%;
+height: 600px;
+}
+
+.another-para {
+   max-width: 1000px;
+}
+
+.another-para h3{
+    margin-left: 150px;
+}
+
+.para2 p {
+ margin-left: 150px;
+ color: #798795;
 }
