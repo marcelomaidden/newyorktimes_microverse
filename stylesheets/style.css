@@ -1,7 +1,6 @@
 * {
     padding:0;
     margin: 0;
-    border: 0;
 }
 
 header {
@@ -122,9 +121,33 @@ nav ul {
     font-size: x-large;
 }
 
-.para1-info,
-.para2-info,
-.para3-info,
-.para4-info {
+.info {
     padding-bottom: 20px;
+}
+
+.thanks {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.thanks p {
+    font-size: medium;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+a {
+    color: rgb(50, 104, 145);
+}
+
+.thanks a {
+    text-decoration: none;
+}
+
+.thanks-line {
+    width: 100px;
+    color: black;
+    margin: 20px auto;
 }
