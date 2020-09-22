@@ -398,17 +398,43 @@ aside a:hover {
     margin-bottom: 4px;
 }
 
-  footer {
+footer {
     clear: both;
     bottom: 0;
-  }
+    width: 90%;
+    border-top: 3px solid lightgray;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: georgia,'times new roman',times,serif;
+}
 
 .footer-menu img {
     height: 70px;
     width: 180px;
     float: left;
+    margin-left: -10px;
 }
 
-.menu ul {
+footer ul {
     list-style-type: none;
+}
+
+footer li {
+    margin: 10px 0;
+}
+
+.footer-subscribe {
+    border-left: 1px solid lightgray;
+    padding-left: 20px;
+}
+
+.copyrights {
+    border-top: 1px solid lightgray;
+    font-size: 11px;
+    color: grey;
+    width: 90%;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
