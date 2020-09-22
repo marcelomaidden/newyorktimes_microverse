@@ -204,19 +204,27 @@ aside a:hover {
 }
 
 .resize-image {
- padding: 150px;
- margin: 30px;
- width:100%;
- height: 600px;
- background-image: url('/images/newyork.png');
- background-repeat: no-repeat;
- background-origin: content-box;
- background-size: 900px 600px;
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    padding: 150px;
+    margin: 30px;
+    width:100%;
+    height: 600px;
+    background-image: url('/images/newyork.png');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 900px 600px;
 }
 
-.resize-image img{
-width: 100%;
-height: 600px;
+.resize-image img {
+    width: 100%;
+    height: 600px;
+}
+
+.resize-image p {
+    margin-top: 150px;
+    margin-right: 10px;
+    font-size: small;
 }
 
 .another-para {
