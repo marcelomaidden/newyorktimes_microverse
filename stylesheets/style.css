@@ -188,13 +188,15 @@ aside {
 }
 
 aside img {
-    width: 100px;
+    width: 70px;
+    height: 70px;
     padding: 10px;
 }
 
 aside h3 {
-    font-size: medium;
+    font-size: small;
     margin-top: 10px;
+    width: 130px;
 }
 
 .section-footer {
@@ -236,11 +238,6 @@ aside h3 {
     font-weight: 700;
     width: 100%;
     padding-bottom: 20px;
-}
-
-.editor-image {
-    width: 250px;
-
 }
 
 .a-h3 {
