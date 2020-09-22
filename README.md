@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Jarfsoft/mint-signup-page/6261ed0df35cbc604600f7f53f0fb366c9e17b08/index.html)
+[Live Demo Link](https://rawcdn.githack.com/marcelomaidden/newyorktimes_microverse/ba449f0225417094a581b948e8fa3d98b5addfbd/index.html)
 
 ## Getting Started
 
@@ -46,3 +46,4 @@ Spread the word if you like this project.
 
 - Thanks to http://w3schools-fa.ir
 - Thanks to https://stackoverflow.com
+- Thanks to https://www.nytimes.com/
