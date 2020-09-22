@@ -17,6 +17,10 @@ hr {
     display: flex;
 }
 
+.w-700 {
+    font-weight: 700;
+}
+
 .column{
     flex-direction: column;
 }
@@ -207,7 +211,7 @@ aside a:hover {
 .resize-image {
     display: grid;
     grid-template-columns: 230px 230px 230px 230px;
-    padding: 150px;
+    padding: 150px 150px 20px 150px;
     margin: 30px;
     width:100%;
     height: 600px;
@@ -239,4 +243,19 @@ aside a:hover {
 .para2 p {
  margin-left: 150px;
  color: #798795;
+}
+
+.author-theory {
+    min-width: 600px;
+    max-width: 600px;
+    margin-left: 180px;
+    margin-right: auto;
+    float: left;
+    font-size: small;
+}
+
+.author-theory hr {
+    border-color: lightgray;
+    width: 80px;
+    margin: 0 0 30px;
 }
