@@ -352,6 +352,10 @@ aside a:hover {
     margin-bottom: 30px;
 }
 
+.last-section hr {
+    width: 850px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -386,6 +390,7 @@ aside a:hover {
 }
 
 .popular-headline{
+    border-top: 1px solid lightgray;
     padding-top:10px;
     padding-bottom: 10px;
     margin-top:4px;
