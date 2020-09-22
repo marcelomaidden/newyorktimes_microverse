@@ -141,6 +141,11 @@ nav ul {
     padding-bottom: 20px;
 }
 
+.info img {
+    min-width: 600px;
+    max-width: 600px;
+}
+
 .thanks {
     max-width: 300px;
     margin-left: auto;
@@ -271,8 +276,20 @@ aside a:hover {
 }
 
 .image-headline {
-    font-size: 0.8rem;
-    line-height: 1.25rem;
     color: #666;
     font-family: georgia,'times new roman',times,serif;
+}
+
+.image-headline span {
+    font-weight: 600;
+}
+
+.image-headline-small {
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+}
+
+.image-headline-medium {
+    font-size: 1rem;
+    line-height: 1.25rem;
 }
