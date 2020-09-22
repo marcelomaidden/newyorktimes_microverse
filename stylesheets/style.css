@@ -190,6 +190,29 @@ aside h3 {
     margin-top: 10px;
 }
 
+.section-footer {
+    min-width: 600px;
+    max-width: 600px;
+    float: left;
+    margin-left: 300px;
+    margin-right: auto;
+    font-size: 12px;
+}
+
+.section-footer p {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.section-footer a {
+    color: #666;
+    font-weight: 600;
+}
+
+.section-footer a:hover {
+    text-decoration: none;
+}
+
 .editor-picks {
     border-bottom: 1px solid lightgray;
     margin-left: 10px;
