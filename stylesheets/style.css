@@ -194,7 +194,7 @@ aside img {
 }
 
 aside h3 {
-    font-size: small;
+    font-size: smaller;
     margin-top: 10px;
     width: 130px;
 }
@@ -234,8 +234,9 @@ aside h3 {
 .editor-picks {
     border-bottom: 1px solid lightgray;
     margin-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 700;
+    font-size: 12px;
     width: 100%;
     padding-bottom: 20px;
 }
