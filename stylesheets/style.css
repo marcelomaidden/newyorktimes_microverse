@@ -67,7 +67,8 @@ nav ul {
 }
 
 .subscribe button,
-.log-in button {
+.log-in button,
+.section-footer button {
     height: 30px;
     background-color: #567b95;
     border-radius: 4px;
@@ -121,6 +122,7 @@ nav ul {
 
 .social-media {
    margin-left: 350px; 
+   font-size: large;
 }
 
 .social-media i {
@@ -197,6 +199,15 @@ aside h3 {
     margin-left: 300px;
     margin-right: auto;
     font-size: 12px;
+}
+
+.section-footer button {
+    width: 220px;
+    float: left;
+}
+
+.section-footer div {
+    margin-top: 20px;
 }
 
 .section-footer p {
