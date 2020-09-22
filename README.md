@@ -1,4 +1,4 @@
-# mint-signup-page
+# newyork-times
 
 > It is a newyork times prototype for newyork times website created for educational purposes.
 
