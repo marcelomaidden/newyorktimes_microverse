@@ -4,10 +4,11 @@
 }
 
 header {
-  height: 72px;
+  height: 43px;
   width: 100%;
   position: fixed;
   background-color: white;
+  border-bottom: 1px solid grey;
 }
 
 hr {
@@ -36,6 +37,15 @@ nav ul {
   list-style-type: none;
 }
 
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 .horrizontal-line {
   display: flex;
 }
@@ -57,20 +67,41 @@ aside img {
 }
 
 .logo img {
-  height: 90px;
+  height: 42px;
   width: 220px;
-  margin-top: -40px;
+  margin-top: -20px;
   margin-left: 300px;
 }
 
 .subscribe button {
-  margin-left: 260px;
-  width: 140px;
+   margin-left: 280px; 
+}
+
+.subscribe button,
+.log-in button {
+  margin-top: -6px;
+}
+
+nav button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  transition: all 0.6s ease 0s;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
 }
 
 .log-in button {
-  margin-left: 10px;
-  width: 70px;
+  margin-left: 6px;
 }
 
 .subscribe button,
@@ -139,15 +170,23 @@ aside img {
 .article-p {
   min-width: 600px;
   max-width: 600px;
-  margin-left: 300px;
-  margin-right: auto;
   padding-top: 50px;
   font-family: 'Crimson Text', serif;
   font-size: x-large;
+  border: 2px solid;
 }
+
+.article {
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
 
 .info {
   padding-bottom: 20px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: 10px;
 }
 
 .info img {
@@ -390,6 +429,7 @@ aside h3 {
   padding-top: 21px;
   float: left;
   min-width: 400px;
+  font-size: 100%;
 }
 
 .grid-container {
@@ -419,7 +459,7 @@ aside h3 {
   }
 
   .s-section-w {
-    padding-left: 100px;
+    padding-left: 120px;
   }
 }
 
@@ -433,7 +473,7 @@ aside h3 {
   }
 
   .s-section-w {
-    padding-left: 180px;
+    padding-left: 200px;
   }
 
   .column-1 hr {
@@ -448,8 +488,7 @@ aside h3 {
 
 .popular-headline {
   border-top: 1px solid lightgray;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 17px 0px 0px;
   margin-top: 4px;
   margin-bottom: 4px;
 }
