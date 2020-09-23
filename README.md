@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/marcelomaidden/newyorktimes_microverse/a1a254928aa4371efc14a6fc89bea0f9dd9e159e/index.html)
+[Live Demo Link](https://rawcdn.githack.com/marcelomaidden/newyorktimes_microverse/bc7d763d2cdf2772207426a76e93feb8d33b7041/index.html)
 
 ## Getting Started
 
@@ -44,6 +44,6 @@ Spread the word if you like this project.
 
 ## Acknowledgments
 
-- Thanks to http://w3schools-fa.ir
-- Thanks to https://stackoverflow.com
-- Thanks to https://www.nytimes.com/
+- Thanks to W3Schools
+- Thanks to Stack Overflow
+- Thanks to New York Times 
