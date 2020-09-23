@@ -466,17 +466,6 @@ footer li {
     padding-left: 20px;
 }
 
-.copyrights {
-    border-top: 1px solid lightgray;
-    font-size: 11px;
-    color: grey;
-    width: 90%;
-    padding: 20px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .css-r5ic95 {
     display: inline-block;
     height: 13px;
@@ -484,4 +473,35 @@ footer li {
     margin-right: 7px;
     vertical-align: middle;
 }
+
+.footer-subscribe a {
+    font-weight: 700;
+}
+
+.footer-subscribe a,
+.footer a  {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-subscribe a:hover,
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.copyrights {
+    border-top: 1px solid lightgray;
+    font-size: 11px;
+    width: 90%;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyrights a {
+    color: grey;
+}
+
+
 
