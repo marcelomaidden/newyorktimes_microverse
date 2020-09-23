@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/marcelomaidden/newyorktimes_microverse/cc3bd1b43e22551f8cf8cec2f8e1733662effe8f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/marcelomaidden/newyorktimes_microverse/a1a254928aa4371efc14a6fc89bea0f9dd9e159e/index.html)
 
 ## Getting Started
 
