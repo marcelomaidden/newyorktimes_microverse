@@ -276,7 +276,10 @@ aside a:hover {
 }
 
 @media (min-width: 600px) and (max-width: 800px)
-{
+{  
+  .name {
+  display: none;
+}
   .credits-margin {
     margin-left: 130px;
   }
@@ -321,8 +324,6 @@ aside h3 {
   min-width: 600px;
   max-width: 600px;
   float: left;
-  margin-left: 300px;
-  margin-right: auto;
   font-size: 12px;
 }
 
@@ -495,6 +496,7 @@ aside h3 {
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
+  .
   .grid-column {
     grid-template-columns: auto auto;
   }
@@ -531,15 +533,19 @@ aside h3 {
 }
 
 .side-section h3 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 18px;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  padding: 10px 0 10px 10px;
+  margin-left: -10px;
 }
 
 .popular-headline {
   border-top: 1px solid lightgray;
   padding: 17px 0px 0px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: georgia, "times new roman", times, serif;
+  font-size: small;
 }
 
 footer {
