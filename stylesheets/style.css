@@ -336,38 +336,25 @@ aside a:hover {
     font-size: 14px;
 }
 
-.last-section{
-    margin-top: 30px;
-    float: left;
-    width: 55%;
-    margin-left: 50px;
+.last-section {
+    clear:both;
+    margin-left: 30px;
 }
 
-.last-section a:hover, .popular-headline a:hover {
+.column-1{
+    margin-top: 30px;
+    float: left;
+    margin-left: 30px;
+}
+
+.column-1 a:hover, .popular-headline a:hover {
     text-decoration: underline;
     color: lightslategray;
 }
 
-.last-section h2 {
+.column-1 h2 {
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-.last-section hr {
-    width: 850px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 50px;
-    margin-bottom: 30px;
-}
-
-.grid-container img {
-    width: 270px;
-    height: 180px;
 }
 
 .fig-caption {
@@ -380,9 +367,60 @@ aside a:hover {
 .side-section {
     margin-top: 10px;
     padding-top: 21px;
-    padding-left: 180px;
-    width: 25%;
     float: left;
+    min-width: 400px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    margin-bottom: 30px;
+}
+
+.grid-container img {
+    width: 270px;
+    height: 180px;
+}
+
+
+@media (min-width: 600px ) and (max-width: 800px) {
+    .grid-column {
+        grid-template-columns: auto auto;
+    }
+
+    .column-1-w {
+        width: 500px;
+    }
+
+    .column-1 hr {
+        width: 560px;
+    }
+
+    .s-section-w {
+        padding-left: 100px;
+    }
+
+
+}
+
+@media (min-width: 801px) {
+    .grid-column {
+        grid-template-columns: auto auto auto;
+    }
+
+    .column-1-w {
+        width: 55%;
+    }
+
+    .s-section-w {
+        padding-left: 180px;
+    }
+
+    .column-1 hr {
+        width: 850px;
+    }
 }
 
 .side-section h3 {
@@ -438,3 +476,5 @@ footer li {
     margin-left: auto;
     margin-right: auto;
 }
+
+
