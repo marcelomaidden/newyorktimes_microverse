@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  width: 100%;
+}
+
 header {
   height: 43px;
   width: 100%;
@@ -137,24 +141,38 @@ nav button {
 .image-set img {
   padding-top: 20px;
   height: 450px;
-  width: 900px;
+  width: 75%;
 }
 
 .title-credits {
-  max-width: 720px;
-  margin-left: 180px;
+  width: 70%;
   color: #798795;
+  margin-right: auto;
+  text-align: justify;
+  font-size: 0.9375rem;
 }
 
 .fullname {
-  margin-left: 340px;
   padding-top: 40px;
   padding-bottom: 20px;
   font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.fullname a {
+  text-decoration: underline;
+  color: black;
+}
+
+.fullname a:hover {
+    text-decoration: none;
+}
+
+.date-time {
+    font-size: 0.7rem;
 }
 
 .same-line {
-  margin-left: 340px;
   display: flex;
 }
 
@@ -164,7 +182,18 @@ nav button {
 }
 
 .social-media i {
-  padding-left: 10px;
+  padding-left: 9px;
+  padding-top: 5px;
+  background-color: lightgray;
+  border-radius: 80%;
+  height: 25px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.social-media i:hover {
+  background-color: white;
+  border: 1px solid lightgray
 }
 
 .article-p {
@@ -173,14 +202,7 @@ nav button {
   padding-top: 50px;
   font-family: 'Crimson Text', serif;
   font-size: x-large;
-  border: 2px solid;
 }
-
-.article {
-  margin-left: auto;
-  margin-right: auto;
-  }
-  
 
 .info {
   padding-bottom: 20px;
@@ -245,8 +267,36 @@ a {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+main {
+  width: 100%;
+}
+
 aside a:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 600px) and (max-width: 800px)
+{
+  .credits-margin {
+    margin-left: 130px;
+  }
+
+  .article {
+    margin-left: 100px;
+    width: 50%;
+  }
+}
+
+@media (min-width: 801px)
+{
+  .credits-margin {
+    margin-left: 160px;
+  }
+
+  .article {
+    margin-left: 30%;
+    width: 50%;
+  }
 }
 
 .footer-subscribe a:hover,
@@ -255,7 +305,7 @@ aside a:hover {
 }
 
 aside {
-  max-width: 200px;
+  width: 25%;
   margin-left: 80px;
   margin-top: auto;
   margin-bottom: auto;
@@ -296,7 +346,6 @@ aside h3 {
 
 .editor-picks {
   border-bottom: 1px solid lightgray;
-  margin-left: 10px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 12px;
