@@ -109,9 +109,9 @@ nav ul {
 }
 
 aside img {
-  width: 70px;
-  height: 70px;
-  padding: 10px;
+  width: 75px;
+  height: 75px;
+  padding: 10px 10px 10px 0;
 }
 
 .logo img {
@@ -280,6 +280,9 @@ main {
     display: none;
   }
 
+  .aside {
+    display: none;
+  }
   .credits-margin {
     margin-left: 130px;
   }
