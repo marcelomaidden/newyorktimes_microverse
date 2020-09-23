@@ -499,9 +499,20 @@ footer li {
     margin-left: auto;
     margin-right: auto;
 }
+
 .copyrights a {
     color: grey;
 }
+
+.a-small {
+    font-size: 10px;
+}
+
+.grey {
+    color: grey;
+}
+
+
 
 
 
