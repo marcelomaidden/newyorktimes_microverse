@@ -168,6 +168,7 @@ nav button {
   font-style: italic;
   font-weight: 700;
   font-size: xx-large;
+  width: 1250px;
 }
 
 .image-set img {
@@ -193,7 +194,7 @@ nav button {
 }
 
 .social-media {
-  margin-left: 350px;
+  margin-left: 200px;
   font-size: large;
 }
 
@@ -288,7 +289,7 @@ main {
   }
 
   .article {
-    margin-left: 30%;
+    margin-left: 35%;
     width: 50%;
   }
 }
