@@ -177,12 +177,16 @@ nav button {
   width: 75%;
 }
 
+.space-around {
+  justify-content: space-around;
+}
+
 .title-credits {
   width: 70%;
   color: #798795;
   margin-right: auto;
   text-align: justify;
-  font-size: 0.9375rem;
+  font-size: 1.2rem;
 }
 
 .date-time {
@@ -193,19 +197,27 @@ nav button {
   display: flex;
 }
 
+.social-media-w {
+  width: 590px;
+}
+
 .social-media {
-  margin-left: 200px;
+  margin-left: 300px;
   font-size: large;
+  display: flex;
 }
 
 .social-media i {
-  padding-left: 9px;
-  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
   background-color: lightgray;
   border-radius: 80%;
-  height: 25px;
-  width: 22px;
+  height: 30px;
+  width: 20px;
   cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .social-media i:hover {
@@ -446,6 +458,7 @@ aside h3 {
   margin-top: 30px;
   float: left;
   margin-left: 30px;
+  border-top: 1px solid black;
 }
 
 .column-1 a:hover,
@@ -514,11 +527,11 @@ aside h3 {
   }
 
   .column-1-w {
-    width: 750px;
+    width: 850px;
   }
 
   .s-section-w {
-    padding-left: 110px;
+    padding-left: 70px;
   }
 
   .column-1 hr {
