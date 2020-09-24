@@ -15,9 +15,9 @@ header {
   border-bottom: 1px solid grey;
 }
 
-hr {
+/* hr {
   border-color: grey;
-}
+} */
 
 .flex {
   display: flex;
@@ -168,14 +168,6 @@ nav button {
 
 .headline-1 {
   padding-top: 90px;
-}
-
-.headline-2 {
-  margin-left: -330px;
-}
-
-.headline-1,
-.headline-2 {
   font-family: 'Crimson Text', serif;
   font-style: italic;
   font-weight: 700;
@@ -502,7 +494,10 @@ aside h3 {
   .grid-column {
     grid-template-columns: auto auto;
   }
-
+  .left {
+    margin-left:70px;
+    float: left;
+  }
   .column-1-w {
     width: 500px;
   }
@@ -542,12 +537,14 @@ aside h3 {
 }
 
 .popular-headline {
-  border-top: solid lightgray;
+  border-top: 1px solid lightgray;
   padding: 17px 0 0;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: georgia, "times new roman", times, serif;
-  font-size: small;
+  font-size: large;
+  width: 300px;
+  padding-bottom: 4px;
 }
 
 footer {
