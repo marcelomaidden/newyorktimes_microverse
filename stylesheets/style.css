@@ -281,11 +281,8 @@ main {
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
+  .aside,
   .name {
-    display: none;
-  }
-
-  .aside {
     display: none;
   }
 
@@ -358,7 +355,7 @@ aside h3 {
   margin-bottom: 10px;
   font-weight: 900;
   font-size: 15px;
-  width: 100%;
+  width: 200px;
   padding-bottom: 20px;
 }
 
@@ -371,7 +368,6 @@ aside h3 {
   display: grid;
   grid-template-columns: 230px 230px 230px 230px;
   padding: 0 150px 20px 150px;
-  margin: 30px;
   width: 100%;
   height: 600px;
   background-image: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png');
@@ -392,7 +388,8 @@ aside h3 {
 }
 
 .another-para {
-  max-width: 1000px;
+  max-width: 900px;
+  margin-left: 55px;
 }
 
 .another-para h3 {
@@ -487,9 +484,8 @@ aside h3 {
   margin-top: 10px;
   padding-top: 21px;
   float: left;
-  min-width: 200px;
+  min-width: 180px;
   font-size: 100%;
-  overflow: auto;
 }
 
 .grid-container {
@@ -498,6 +494,8 @@ aside h3 {
   grid-column-gap: 15px;
   grid-row-gap: 50px;
   margin-bottom: 30px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 
 .grid-container img {
@@ -519,7 +517,11 @@ aside h3 {
   }
 
   .s-section-w {
-    padding-left: 5px;
+    padding-left: 70px;
+  }
+
+  .another-para {
+    margin-left: -40px;
   }
 }
 
@@ -545,7 +547,7 @@ aside h3 {
   font-size: 1.1875rem;
   line-height: 1.4375rem;
   padding: 10px 0 10px 10px;
-  margin-left: 0;
+  margin-left: -10px;
   border-top: 1px solid black;
   width: 295px;
 }
