@@ -483,13 +483,16 @@ aside h3 {
   font-size: 100%;
 }
 
+.border-top {
+  border-top: 1px solid black;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 15px;
   grid-row-gap: 50px;
   margin-bottom: 30px;
-  border-bottom: 1px solid black;
   padding-bottom: 10px;
 }
 
